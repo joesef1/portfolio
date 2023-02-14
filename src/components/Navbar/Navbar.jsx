@@ -36,7 +36,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
+ 
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
