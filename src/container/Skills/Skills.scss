@@ -21,10 +21,12 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  // justify-content: flex-start;
+  // align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 
-  margin-right: 5rem;
+  // margin-right: 5rem;
 
   @media screen and (max-width: 900px) {
     margin-right: 0;
