@@ -39,6 +39,8 @@
     background-color: var(--secondary-color);
     color: #fff;
   }
+  display: none;
+
 }
 
 .app__work-portfolio {
@@ -49,6 +51,7 @@
 
   .app__work-item {
     width: 270px;
+    width: 450px;
     flex-direction: column;
 
     margin: 2rem;
@@ -73,6 +76,10 @@
     @media screen and (max-width: 300px) {
       width: 100%;
       margin: 1rem;
+    } 
+     @media screen and (max-width: 450px) {
+    width: 270px;
+      
     }
   }
 }
